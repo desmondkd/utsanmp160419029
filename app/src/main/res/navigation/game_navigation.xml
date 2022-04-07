@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_navigation"
+    app:startDestination="@id/itemMenu">
+
+    <fragment
+        android:id="@+id/itemMenu"
+        android:name="com.example.s160419029.view.MenuFragment"
+        android:label="Menu"
+        tools:layout="@layout/fragment_menu">
+        <action
+            android:id="@+id/actionBookList"
+            app:destination="@id/bookListFragment" />
+        <action
+            android:id="@+id/actionPublisherList"
+            app:destination="@id/publisherListFragment" />
+        <action
+            android:id="@+id/actionAuthorList"
+            app:destination="@id/authorListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookListFragment"
+        android:name="com.example.s160419029.view.BookListFragment"
+        android:label="List Book"
+        tools:layout="@layout/fragment_book_list">
+        <action
+            android:id="@+id/actionBookDetail"
+            app:destination="@id/bookDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookDetailFragment"
+        android:name="com.example.s160419029.view.BookDetailFragment"
+        android:label="Detail Book"
+        tools:layout="@layout/fragment_book_detail">
+        <argument
+            android:name="bookid"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/publisherListFragment"
+        android:name="com.example.s160419029.view.PublisherListFragment"
+        android:label="List Publisher"
+        tools:layout="@layout/fragment_publisher_list" >
+        <action
+            android:id="@+id/actionPublisherDetail"
+            app:destination="@id/publisherDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemProfile"
+        android:name="com.example.s160419029.view.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/authorListFragment"
+        android:name="com.example.s160419029.view.AuthorListFragment"
+        android:label="List Author"
+        tools:layout="@layout/fragment_author_list">
+        <action
+            android:id="@+id/actionAuthorDetail"
+            app:destination="@id/authorDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/authorDetailFragment"
+        android:name="com.example.s160419029.view.AuthorDetailFragment"
+        android:label="Detail Author"
+        tools:layout="@layout/fragment_author_detail">
+        <argument
+            android:name="authorid"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/publisherDetailFragment"
+        android:name="com.example.s160419029.view.PublisherDetailFragment"
+        android:label="Detail Publisher"
+        tools:layout="@layout/fragment_publisher_detail">
+        <argument
+            android:name="publisherid"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemBookmark"
+        android:name="com.example.s160419029.view.BookmarkFragment"
+        android:label="Bookmark"
+        tools:layout="@layout/fragment_bookmark" />
+    <fragment
+        android:id="@+id/itemAddBook"
+        android:name="com.example.s160419029.view.AddBookFragment"
+        android:label="Add Book"
+        tools:layout="@layout/fragment_add_book" />
+</navigation>

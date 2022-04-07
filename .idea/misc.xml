@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/layout/author_list_item.xml" value="0.536" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/layout/book_list_item.xml" value="0.4" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/layout/fragment_add_book.xml" value="0.264" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/layout/fragment_author_detail.xml" value="0.264" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/layout/fragment_author_list.xml" value="0.1947463768115942" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/layout/fragment_book_detail.xml" value="0.264" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/layout/fragment_book_list.xml" value="0.3819444444444444" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/layout/fragment_bookmark.xml" value="0.536" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/layout/fragment_menu.xml" value="0.264" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/layout/fragment_publisher_detail.xml" value="0.264" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/layout/fragment_publisher_list.xml" value="0.1947463768115942" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/layout/publisher_list_item.xml" value="0.4" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/menu/buttom_navigation_menu.xml" value="0.6" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/menu/menu_bottom.xml" value="0.259375" />
+        <entry key="..\:/Kuliah/ANMP/UTS/s160419029/app/src/main/res/menu/menu_drawer.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
